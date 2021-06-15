@@ -4,7 +4,7 @@ The operation about linux namespace. Support `Go1.7+`.
 
 ## Installation
 ```shell
-$ go get -u github.com/xgfone/go-namespace
+$ go get -u github.com/xgfone/go-linux-namespace
 ```
 
 ## Example
@@ -14,7 +14,7 @@ package main
 import (
     "fmt"
 
-    "github.com/xgfone/go-namespace"
+    "github.com/xgfone/go-linux-namespace"
 )
 
 func main() {
