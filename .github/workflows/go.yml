@@ -2,7 +2,7 @@ name: Go
 on: push
 env:
   GO111MODULE: on
-  GOPATH: /home/runner/go
+  GOPATH: /home/runner/go  # For go 1.7
 jobs:
   build:
     runs-on: ubuntu-18.04
