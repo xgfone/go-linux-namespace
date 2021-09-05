@@ -27,7 +27,8 @@ jobs:
       with:
         go-version: ${{ matrix.go }}
     - name: Get dependencies
-        run: |
+      shell: bash
+      run: |
         version=`go version | awk '{print $3}' | awk -F. '{print $2}'`
         if [ $version -lt 11 ];
             go get -v -t -d
