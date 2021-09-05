@@ -30,6 +30,9 @@ jobs:
       shell: bash
       run: |
         version=`go version | awk '{print $3}' | awk -F. '{print $2}'`
+        if [ $version -lt 8 ]; then
+            export GOPATH=/home/runner/go
+        fi
         if [ $version -lt 11 ]; then
             go get -v -t -d
         fi
