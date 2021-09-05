@@ -1,4 +1,4 @@
-# Linux Namespace [![Build Status](https://api.travis-ci.com/xgfone/go-namespace.svg?branch=master)](https://travis-ci.com/github/xgfone/go-namespace) [![GoDoc](https://pkg.go.dev/badge/github.com/xgfone/go-namespace)](https://pkg.go.dev/github.com/xgfone/go-namespace) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://raw.githubusercontent.com/xgfone/go-namespace/master/LICENSE)
+# Linux Namespace [![Build Status](https://github.com/xgfone/go-linux-namespace/actions/workflows/go.yml/badge.svg)](https://github.com/xgfone/go-linux-namespace/actions/workflows/go.yml) [![GoDoc](https://pkg.go.dev/badge/github.com/xgfone/go-namespace)](https://pkg.go.dev/github.com/xgfone/go-namespace) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://raw.githubusercontent.com/xgfone/go-namespace/master/LICENSE)
 
 The operation about linux namespace. Support `Go1.7+`.
 
